@@ -43,13 +43,16 @@
   break-inside: avoid;
 }
 
-.option input {
+.option input,
+.option input:disabled {
+  -webkit-appearance: none;
   appearance: none;
   width: 26px;
   height: 26px;
   margin: 0;
   flex-shrink: 0;
   border: 2px solid;
+  border-radius: 0;
 }
 
 .option input:checked::before {
