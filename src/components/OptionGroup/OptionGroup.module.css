@@ -1,0 +1,65 @@
+.group {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.group legend {
+  margin-bottom: 8px;
+  padding: 0;
+}
+
+.columns {
+  column-count: 2;
+  column-gap: 24px;
+}
+
+.row,
+.inline {
+  display: flex;
+  gap: 4px 24px;
+}
+
+.inline {
+  flex-wrap: wrap;
+}
+
+.row > .option {
+  flex: 1;
+  min-width: 0;
+}
+
+.row > .option:first-child {
+  flex: 2;
+}
+
+.option,
+.roleRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  break-inside: avoid;
+}
+
+.option input {
+  appearance: none;
+  width: 26px;
+  height: 26px;
+  margin: 0;
+  flex-shrink: 0;
+  border: 2px solid;
+}
+
+.option input:checked::before {
+  content: "✓";
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.roleRow > input {
+  width: 0;
+}

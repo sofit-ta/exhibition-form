@@ -1,0 +1,13 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.field textarea {
+  flex: none;
+  width: 100%;
+  line-height: 24px;
+  resize: none;
+  overflow-y: hidden;
+}
