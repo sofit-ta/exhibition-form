@@ -1,0 +1,91 @@
+.form,
+.fields {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 20px;
+}
+
+.fields {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.field {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.error {
+  min-height: 20px;
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.error,
+.failure {
+  color: #97140b;
+}
+
+.actions {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 0;
+  background: white;
+}
+
+.submitActions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.title,
+.status {
+  margin: 0;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.status {
+  font-size: 16px;
+  max-width: 320px;
+}
+
+.success {
+  color: #09722f;
+}
+
+.button {
+  flex-shrink: 0;
+  min-height: 48px;
+  padding: 10px 28px;
+  background: black;
+  color: white;
+}
+
+.button:disabled {
+  opacity: 0.6;
+}
+
+.form :focus-visible {
+  outline: 2px solid #155090;
+}

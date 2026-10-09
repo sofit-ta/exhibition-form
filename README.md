@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Анкета посетителя выставки
 
-## Getting Started
+## Заполнение анкеты
 
-First, run the development server:
+1. Откройте ссылку на веб-анкету в браузере iPad. Для сохранения требуется интернет.
+2. Заполните пункты 1–8. В каждой группе выберите один вариант. Если выбрано «Другое», заполните появившееся поле.
+3. При необходимости заполните пункт 9 «Выслать/сделать после выставки».
+4. Нажмите «Сохранить» и дождитесь зелёного сообщения «Анкета сохранена!».
+5. После сохранения форма очистится — можно вводить данные следующего посетителя.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Просмотр записей
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Таблица контактов](https://docs.google.com/spreadsheets/d/1ZKqvi0mYmXQXMEDr3TXjzAq7ZotmMy0nxd_lTT7y0mE/edit?usp=sharing)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Каждая сохранённая анкета добавляется новой строкой. Таблица доступна для просмотра, исходные записи редактировать нельзя.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Получение Excel
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+В таблице выберите **Файл → Скачать → Microsoft Excel (XLSX)**.
