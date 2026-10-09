@@ -4,6 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Анкета посетителя",
   description: "Сбор контактов на выставке",
+  icons: { icon: "data:," },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
